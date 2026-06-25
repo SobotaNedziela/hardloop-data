@@ -9,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: garminpython.ipynb
+      - href: garminpython.qmd
         text: Data Lab
       - href: blog.qmd
         text: Blog
