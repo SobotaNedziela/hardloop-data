@@ -5,9 +5,10 @@ project:
 website:
   title: "Sobotka"
   navbar:
-    background: primary
     left:
-      - href: garminpython.html
-        text: Data Lab
-      - href: blog.qmd
-        text: Blog
+      - text: "Home"
+        href: index.html
+      - text: "Data Lab"
+        href: datalab.html 
+      - text: "Blog"
+        href: blog.html
