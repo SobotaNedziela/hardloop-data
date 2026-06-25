@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sobotka.nl/datalab.html</loc>
-    <lastmod>2026-06-25T15:14:06.879Z</lastmod>
+    <lastmod>2026-06-25T15:15:32.655Z</lastmod>
   </url>
   <url>
     <loc>https://sobotka.nl/blog.html</loc>
-    <lastmod>2026-06-25T15:14:06.879Z</lastmod>
+    <lastmod>2026-06-25T15:15:32.655Z</lastmod>
   </url>
   <url>
     <loc>https://sobotka.nl/eerste-blog.html</loc>
-    <lastmod>2026-06-25T15:14:06.879Z</lastmod>
+    <lastmod>2026-06-25T15:15:32.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sobotka.nl/projects/garminpython.html</loc>
+    <lastmod>2026-06-25T15:15:32.716Z</lastmod>
   </url>
   <url>
     <loc>https://sobotka.nl/index.html</loc>
-    <lastmod>2026-06-25T15:14:06.880Z</lastmod>
+    <lastmod>2026-06-25T15:15:32.656Z</lastmod>
   </url>
 </urlset>
