@@ -1,0 +1,10 @@
+---
+title: "Data Lab"
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+---
+
+Hier vind je al mijn data-projecten.
