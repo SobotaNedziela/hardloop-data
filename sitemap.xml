@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sobotka.nl/index.html</loc>
-    <lastmod>2026-06-25T14:58:35.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sobotka.nl/garminpython.html</loc>
-    <lastmod>2026-06-25T14:58:35.812Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sobotka.nl/eerste-blog.html</loc>
-    <lastmod>2026-06-25T14:58:35.752Z</lastmod>
+    <loc>https://sobotka.nl/datalab.html</loc>
+    <lastmod>2026-06-25T15:12:22.328Z</lastmod>
   </url>
   <url>
     <loc>https://sobotka.nl/blog.html</loc>
-    <lastmod>2026-06-25T14:58:35.752Z</lastmod>
+    <lastmod>2026-06-25T15:12:22.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sobotka.nl/eerste-blog.html</loc>
+    <lastmod>2026-06-25T15:12:22.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sobotka.nl/garminpython.html</loc>
+    <lastmod>2026-06-25T15:12:22.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sobotka.nl/index.html</loc>
+    <lastmod>2026-06-25T15:12:22.389Z</lastmod>
   </url>
 </urlset>
