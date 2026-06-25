@@ -1,0 +1,10 @@
+---
+title: "Flex Pool Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Hier schrijf ik over mijn ervaringen met ultra marathons en de wiskunde daarachter.
