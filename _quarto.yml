@@ -1,2 +1,11 @@
 project:
   type: website
+navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: garminpython.qmd  # Jouw bestaande data pagina
+        text: "Data Lab"
+      - href: blog.qmd
+        text: "Blog"
