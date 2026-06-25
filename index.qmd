@@ -4,6 +4,6 @@ title: "Sobotka | Data Lab"
 
 Welkom op mijn portfolio. 
 
-Hier combineer ik toegepaste wiskunde met ultra-duursport. 
+Hier combineer ik toegepaste wiskunde met ultra duursport. 
 
-[Bekijk hier mijn Neurale Netwerk voor hartslag-analyse](garminpython.html)
+[Bekijk hier mijn onzin](garminpython.html)
