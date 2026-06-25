@@ -26,6 +26,9 @@ jobs:
       - name: Quarto installeren
         uses: quarto-dev/quarto-actions/setup@v2
 
+    - name: Render website
+        run: quarto render
+
       - name: Website bouwen en publiceren
         uses: quarto-dev/quarto-actions/publish@v2
         with:
