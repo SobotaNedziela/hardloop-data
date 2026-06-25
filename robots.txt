@@ -1,1 +1,1 @@
-Sitemap: https://SobotaNedziela.github.io/hardloop-data/sitemap.xml
+Sitemap: https://sobotka.nl/sitemap.xml
