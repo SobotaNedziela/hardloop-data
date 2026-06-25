@@ -1,11 +1,15 @@
 project:
   type: website
-navbar:
+  output-dir: _site
+
+website:
+  title: "Sobotka"
+  navbar:
     background: primary
     left:
       - href: index.qmd
-        text: "Home"
-      - href: garminpython.qmd  # Jouw bestaande data pagina
-        text: "Data Lab"
+        text: Home
+      - href: garminpython.qmd
+        text: Data Lab
       - href: blog.qmd
-        text: "Blog"
+        text: Blog
