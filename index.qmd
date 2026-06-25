@@ -7,7 +7,7 @@ Welkom op mijn portfolio.
 Hier combineer ik toegepaste wiskunde met ultra duursport. 
 
 ::: {.column width="30%"}
-![](images/me.jpg){fig-alt="Een foto van mij" .rounded-circle}
+![](images/me.jpg){fig-alt="Een foto van mij"}
 :::
 
 [Bekijk hier mijn onzin](garminpython.html)
