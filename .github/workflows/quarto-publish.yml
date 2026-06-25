@@ -2,8 +2,8 @@ name: Quarto Publish
 
 on:
   push:
-    branches: main # Update direct als je nieuwe code uploadt
-  workflow_dispatch: # Zorgt voor een handmatige 'Play' knop
+    branches: main
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -26,7 +26,7 @@ jobs:
       - name: Quarto installeren
         uses: quarto-dev/quarto-actions/setup@v2
 
-    - name: Render website
+      - name: Render website
         run: quarto render
 
       - name: Website bouwen en publiceren
