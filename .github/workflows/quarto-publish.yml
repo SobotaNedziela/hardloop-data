@@ -29,6 +29,11 @@ jobs:
       - name: Render website
         run: quarto render
 
+       - name: Render website
+        run: |
+          rm -rf _site   # Dit verwijdert oude, mogelijk foute bestanden
+          quarto render
+
       - name: Website bouwen en publiceren
         uses: quarto-dev/quarto-actions/publish@v2
         with:
