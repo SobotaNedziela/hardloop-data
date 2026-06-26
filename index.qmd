@@ -2,7 +2,7 @@
 title: "Sobotka | Data Lab"
 ---
 
-Welkom op mijn portfolio. 
+Welkom op mijn website.
 
 Hier combineer ik toegepaste wiskunde met ultra duursport. 
 
@@ -10,4 +10,4 @@ Hier combineer ik toegepaste wiskunde met ultra duursport.
 ![](images/cpcfinish.jpg){fig-alt="Een foto van mij"}
 :::
 
-[Bekijk hier mijn onzin](garminpython.html)
+Alles is nog "under construction". :)
