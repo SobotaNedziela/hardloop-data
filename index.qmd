@@ -6,8 +6,6 @@ Welkom op mijn website.
 
 Hier combineer ik toegepaste wiskunde met ultra duursport. 
 
-::: {.column width="30%"}
 ![](images/cpcfinish.jpg){fig-alt="Een foto van mij"}
-:::
 
 Alles is nog "under construction". :)
