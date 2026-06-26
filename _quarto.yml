@@ -6,8 +6,6 @@ website:
   title: "Sobotka"
   navbar:
     left:
-      - text: "Home"
-        href: index.html
       - text: "Data Lab"
         href: datalab.html 
       - text: "Blog"
