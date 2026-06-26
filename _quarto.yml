@@ -5,8 +5,14 @@ project:
 website:
   title: "Sobotka"
   navbar:
+    background: "#1a1a1a"  
     left:
       - text: "Data Lab"
-        href: datalab.html 
+        href: datalab.html
       - text: "Blog"
         href: blog.html
+
+format:
+  html:
+    theme: cosmo          
+    code-fold: true       
