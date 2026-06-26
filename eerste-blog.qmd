@@ -1,7 +1,0 @@
----
-title: "Mijn eerste ultra-marathon"
-date: 2026-06-25
-categories: [sport, data]
----
-
-Dit is de tekst van mijn blogpost. Hier kan ik ook Python code toevoegen als ik wil.
