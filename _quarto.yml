@@ -11,7 +11,9 @@ website:
         href: datalab.html
       - text: "Blog"
         href: blog.html
-
+    right:
+      - text: "🇵🇱 Polski"
+        href: https://sobotka-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=pl
 format:
   html:
     theme: cosmo          
