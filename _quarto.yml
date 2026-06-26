@@ -5,7 +5,7 @@ project:
 website:
   title: "Sobotka"
   navbar:
-    background: "#1a1a1a"  
+    background: "#2c3e50"  
     left:
       - text: "Data Lab"
         href: datalab.html
