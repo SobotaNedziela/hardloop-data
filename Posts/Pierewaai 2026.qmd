@@ -10,7 +10,7 @@ We hebben tactisch de eerste 2 CPs overgeslagen en zijn in één keer doorgerend
 Toen we hier aankwamen stond er nog niemand klaar maar kwam er een auto van de organisatie aanrijden met de controle post. 
 Waren we dus bijna te snel voor de organisatie zelf. 
 
-![](images/pierewaai1.jpeg){fig-alt="Foto tijdens de run"}
+![](/images/pierewaai1.jpeg){fig-alt="Foto tijdens de run"}
 
 Na deze korte pit stop heb ik de groep nog even gevolgd totdat de plicht riep. 
 Toen ik mijn reis wou vervolgen gebeurde het gene wat mij altijd overkomt, de GPS krijgt het even zwaar. 
@@ -22,4 +22,4 @@ Met de hoop op een podium eingelijk vergeven haalde ik 1 van de jonges uit de ko
 Uiteindelijk binnen gekomen na 6 uur en 15 minuten als 4e. 
 Toch best een prima "trainingsrun". 
 
-![](images/pierewaai2.jpeg){fig-alt="Foto tijdens de run"}
+![](/images/pierewaai2.jpeg){fig-alt="Foto tijdens de run"}
