@@ -2,8 +2,8 @@
 title: "Data Lab"
 listing:
   contents: projects
-  type: default
-  fields: [date, title, description, categories]
+  type: table
+  fields: [date, title, categories]
 ---
 
 Hier vind je al mijn data-projecten.
