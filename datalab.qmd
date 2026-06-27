@@ -1,10 +1,9 @@
 ---
 title: "Data Lab"
 listing:
-  contents: projects
-  type: grid
-  sort: "date desc"
-  categories: true
+ contents: projects
+  type: table                        
+  fields: [date, title, categories]  
 ---
 
 Hier vind je al mijn data-projecten.
