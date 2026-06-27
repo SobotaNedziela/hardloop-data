@@ -1,5 +1,5 @@
 ---
-title: "Flex Pool Blog"
+title: "Mijn blog"
 listing:
   contents: Posts
   sort: "date desc"
@@ -7,4 +7,4 @@ listing:
   categories: true
 ---
 
-Hier schrijf ik over mijn ervaringen met ultra marathons en de wiskunde daarachter.
+Hier schrijf ik over mijn ervaringen met ultra marathons en andere avonturen. 
