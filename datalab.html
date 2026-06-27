@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -178,7 +178,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -208,33 +208,32 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1782573050437" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5n" data-listing-date-sort="1782345600000" data-listing-file-modified-sort="1782573302771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <a href="./projects/garminpython (1).html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/tempo-thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./projects/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Jakub’s hardloop data
 </h5>
-<div class="card-text listing-description delink">
+<div class="listing-categories">
 
-<details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"></span>
-<span id="cb1-3">activities <span class="op">=</span> client.get_activities(<span class="dv">0</span>, <span class="dv">582</span>)</span>
-<span id="cb1-4">df_raw <span class="op">=</span> pd.DataFrame(activities)</span>
-<span id="cb1-5"></span>
-<span id="cb1-6">relevante_kolommen <span class="op">=</span> [</span>
-<span id="cb1-7">    <span class="st">'startTimeLocal'</span>, </span>
-<span id="cb1-8">    <span class="st">'distance'</span>, </span>
-<span id="cb1-9">    <span class="st">'…</span></span><span id="cb1-10"><span class="st"></span></span><span id="cb1-11"><span class="st"></span></span><span id="cb1-12"></span><span id="cb1-13"></span><span id="cb1-14"><span class="op"></span><span class="cf"></span><span class="kw"></span><span class="cf"></span><span class="kw"></span></span><span id="cb1-15"></span></code></pre></div></div></details>
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-text listing-description delink">
+<p>Een netwerk voor hardloopprestaties.</p>
+</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Jakub Sobotka
+Sobotka
+</div>
+<div class="listing-date">
+Jun 25, 2026
 </div>
 </div>
 </div>
