@@ -1,7 +1,17 @@
 ---
+---
 title: "Jakub Sobotka"
 description: "Toegepaste wiskunde student." 
 page-layout: custom
+include-in-header:
+  text: |
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+---
+
+```{=html}
+  <!-- Navigation -->
+  <nav aria-label="Main navigation">
+...
 ---
 
 ```{=html}
