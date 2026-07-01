@@ -4,7 +4,7 @@ project:
 
 format:
   html:
-   theme: 
-    - darkly          
-    - custom.scss  
+    theme:
+      - darkly
+      - custom.scss
     include-before-body: nav.html
