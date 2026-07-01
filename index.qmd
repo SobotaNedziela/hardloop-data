@@ -44,34 +44,38 @@ page-layout: custom
       </div>
     </section>
 
-    <section id="about">
+  <section id="about">
       <h2 class="section-label">Over Mij</h2>
       <div class="about-grid">
-        <div class="about-text">
-          <p>
-            Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam. 
-            Ik werk met data, modelleer het wiskundig en bouw systemen die patronen zichtbaar maken.
-          </p>
-          <p>
-            Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) and de Ironman Klagenfurt.
-          </p>
-        </div>
-        <div class="about-stats">
-          <div class="stat-item">
-            <span class="stat-val">170km</span>
-            <span class="stat-label">Doel: DFBG Polen</span>
+        
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam. 
+              Ik werk met data, modelleer het wiskundig en bouw systemen die patronen zichtbaar maken.
+            </p>
+            <p>
+              Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) and de Ironman Klagenfurt.
+            </p>
           </div>
-          <div class="stat-item">
-            <span class="stat-val">Propedeuse TW</span>
-            <span class="stat-label">7,5 gemiddeld</span>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-val">170km</span>
+              <span class="stat-label">Doel: DFBG Polen</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">Propedeuse TW</span>
+              <span class="stat-label">7,5 gemiddeld</span>
+            </div>
           </div>
         </div>
-          <div class="about">
+
+        <div class="about-visual">
           <img src="images/uhut.jpeg" alt="Jakub Sobotka" class="about-img">
         </div>
+
       </div>
     </section>
-
     <section id="skills">
       <h2 class="section-label">Skills</h2>
       <div class="skills-grid">
