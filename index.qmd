@@ -1,5 +1,4 @@
 ---
----
 title: "Jakub Sobotka"
 description: "Toegepaste wiskunde student." 
 page-layout: custom
