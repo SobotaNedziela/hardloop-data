@@ -143,143 +143,146 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Zwevende Navigatie onderaan het scherm -->
-<nav>
-<a href="#hero">HOME</a><span class="sep">/</span> <a href="#about">OVER MIJ</a><span class="sep">/</span> <a href="#skills">SKILLS</a><span class="sep">/</span> <a href="#projects">DATA LAB</a><span class="sep">/</span> <a href="#contact">CONTACT</a>
+<nav aria-label="Main navigation">
+<a href="#hero">Home</a><span class="sep" aria-hidden="true">/</span> <a href="#about">Over Mij</a><span class="sep" aria-hidden="true">/</span> <a href="#skills">Skills</a><span class="sep" aria-hidden="true">/</span> <a href="#projects">Data Lab</a><span class="sep" aria-hidden="true">/</span> <a href="#experience">Ervaring</a><span class="sep" aria-hidden="true">/</span> <a href="#contact">Contact</a>
 </nav>
 <main>
-<section id="hero">
-<div class="hero-name">
-<pre><code>  &lt;span&gt;JAKUB&lt;/span&gt;
-  &lt;span&gt;SOBOTKA&lt;span class="blink" aria-hidden="true"&gt;_&lt;/span&gt;&lt;/span&gt;
-&lt;/div&gt;
+<pre><code>&lt;section id="hero"&gt;
+  &lt;div class="hero-name"&gt;
+    &lt;span&gt;JAKUB&lt;/span&gt;
+    &lt;span&gt;SOBOTKA&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;p class="hero-tag"&gt;
+    &lt;span class="highlight"&gt;APPLIED MATHEMATICS&lt;/span&gt; &amp;mdash;
+    BUILDING AT THE INTERSECTION OF
+    &lt;span class="highlight"&gt;DATA SCIENCE&lt;/span&gt;,
+    &lt;span class="highlight"&gt;MACHINE LEARNING&lt;/span&gt;, AND
+    &lt;span class="highlight"&gt;ENDURANCE SPORTS&lt;/span&gt;.
+  &lt;/p&gt;
+  &lt;div class="hero-meta"&gt;
+    &lt;span&gt;VELSEN, NL&lt;/span&gt;
+    &lt;span&gt;HOGESCHOOL VAN AMSTERDAM&lt;/span&gt;
+    &lt;span&gt;DATA LAB&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
 
-&lt;p class="hero-tag"&gt;
-  &lt;span class="highlight"&gt;TOEGEPASTE WISKUNDE&lt;/span&gt; &amp;mdash;
-  BOUWEN AAN:
-  &lt;span class="highlight"&gt;DATA SCIENCE&lt;/span&gt;,
-  &lt;span class="highlight"&gt;MACHINE LEARNING&lt;/span&gt;,
-  &lt;span class="highlight"&gt;DUUR SPORT&lt;/span&gt;.
-&lt;/p&gt;
+&lt;section id="about"&gt;
+  &lt;h2 class="section-label"&gt;Over Mij&lt;/h2&gt;
+  &lt;div class="about-grid"&gt;
+    &lt;div class="about-text"&gt;
+      &lt;p&gt;
+        Student &lt;strong&gt;Toegepaste Wiskunde (Applied Mathematics)&lt;/strong&gt; aan de Hogeschool van Amsterdam. 
+        Ik werk met ruwe data — ik schoon het op, modelleer het wiskundig en bouw systemen die patronen zichtbaar maken.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning pipelines en voer tijdreeksanalyses uit op mijn eigen trainingsdata. Naast het programmeren ben ik een endurance atleet, in training voor aankomende ultra-marathons (100km+) en de Ironman Klagenfurt.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Daarnaast zet ik me als fractie-ondersteuner in voor de lokale gemeenteraad. Ik geloof in data die niet alleen klopt, maar ook maatschappelijke en fysieke impact heeft.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="about-stats"&gt;
+      &lt;div class="stat-item"&gt;
+        &lt;span class="stat-val"&gt;170km&lt;/span&gt;
+        &lt;span class="stat-label"&gt;Doel: Polen Ultra&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="stat-item"&gt;
+        &lt;span class="stat-val"&gt;Python&lt;/span&gt;
+        &lt;span class="stat-label"&gt;Primary Stack&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="stat-item"&gt;
+        &lt;span class="stat-val"&gt;Velsen&lt;/span&gt;
+        &lt;span class="stat-label"&gt;Lokale Politiek&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
 
-&lt;div class="hero-meta"&gt;
-  &lt;span&gt;AMSTERDAM&lt;/span&gt;
-  &lt;span&gt;HOGESCHOOL VAN AMSTERDAM&lt;/span&gt;
-  &lt;span&gt;DATA LAB&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-</div></section>
-<!-- 2. OVER MIJ SECTIE -->
-<section id="about">
-<h2 class="section-label anchored">
-<ol type="1">
-<li>OVER MIJ
-</li></ol></h2>
-<div class="about-grid">
-<div class="about-text">
-<pre><code>&lt;p&gt;Ik ben student &lt;strong&gt;Applied Mathematics&lt;/strong&gt; met een passie voor het snijvlak tussen zuivere wiskunde, programmeren en fysieke grenzen.&lt;/p&gt;
-&lt;p&gt;In plaats van te werken met standaard datasets, bouw ik analytische modellen rondom mijn eigen fysiologische data. Naast code en formules vind je mij buiten; momenteel in training voor ultra-marathons en een Ironman.&lt;/p&gt;
-&lt;p&gt;Daarnaast ben ik lokaal politiek actief in de gemeente Velsen.&lt;/p&gt;</code></pre>
-</div>
-<div class="about-stats">
-<pre><code>&lt;div class="stat-item"&gt;
-  &lt;span class="stat-val"&gt;170km&lt;/span&gt;
-  &lt;span class="stat-label"&gt;Doel: Polen Ultra&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="stat-item"&gt;
-  &lt;span class="stat-val"&gt;Python&lt;/span&gt;
-  &lt;span class="stat-label"&gt;Primary Stack&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-</div>
-</div>
-</section>
+&lt;section id="skills"&gt;
+  &lt;h2 class="section-label"&gt;Skills&lt;/h2&gt;
+  &lt;div class="skills-grid"&gt;
+    &lt;div class="skill-group"&gt;
+      &lt;h3&gt;Talen &amp; Code&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Python&lt;/li&gt;
+        &lt;li&gt;R&lt;/li&gt;
+        &lt;li&gt;SQL&lt;/li&gt;
+        &lt;li&gt;LaTeX&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="skill-group"&gt;
+      &lt;h3&gt;Tools &amp; Platforms&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Jupyter Lab&lt;/li&gt;
+        &lt;li&gt;Quarto&lt;/li&gt;
+        &lt;li&gt;Git / GitHub&lt;/li&gt;
+        &lt;li&gt;Scikit-Learn / Pandas&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="skill-group"&gt;
+      &lt;h3&gt;Domeinen&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Machine Learning&lt;/li&gt;
+        &lt;li&gt;Tijdreeksanalyse (ARIMA)&lt;/li&gt;
+        &lt;li&gt;Signaalverwerking&lt;/li&gt;
+        &lt;li&gt;Sportbiomechanica&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
 
-<!-- 3. SKILLS SECTIE -->
-<section id="skills">
-<h2 class="section-label anchored">
-<ol start="2" type="1">
-<li>SKILLS &amp; ARSENAAL
-</li></ol></h2>
-<div class="skills-grid">
-<div class="skill-group">
-<pre><code>&lt;h3&gt;Wiskunde &amp; ML&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Machine Learning (Unsupervised)&lt;/li&gt;
-  &lt;li&gt;Tijdreeksanalyse (ARIMA)&lt;/li&gt;
-  &lt;li&gt;Differentiaalvergelijkingen&lt;/li&gt;
-  &lt;li&gt;Signaalverwerking (Fourier)&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-</div>
-<div class="skill-group">
-<pre><code>&lt;h3&gt;Programming&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Python (Pandas, Plotly, Scikit)&lt;/li&gt;
-  &lt;li&gt;R &amp; Quarto&lt;/li&gt;
-  &lt;li&gt;SQL&lt;/li&gt;
-  &lt;li&gt;Git &amp; GitHub Actions&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-</div>
-<div class="skill-group">
-<pre><code>&lt;h3&gt;Domein Kennis&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Fysiologische Data-analyse&lt;/li&gt;
-  &lt;li&gt;Sportbiomechanica&lt;/li&gt;
-  &lt;li&gt;Lokale Politiek &amp; Beleid&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-</div>
-</div>
-</section>
+&lt;section id="projects"&gt;
+  &lt;h2 class="section-label"&gt;Data Lab &amp; Projecten&lt;/h2&gt;
+  &lt;div class="projects-list"&gt;
 
-<!-- 4. DATA LAB / PROJECTS SECTIE -->
-<section id="projects">
-<h2 class="section-label anchored">
-<ol start="3" type="1">
-<li>DATA LAB &amp; BLOG
-</li></ol></h2>
-<div class="projects-list">
-<!-- Project 1 (Linkt naar je datalab pagina) --> <a href="datalab.html" class="project-item"> <span class="project-num">01</span>
-</a><div class="project-info"><a href="datalab.html" class="project-item">
-<pre><code>  &lt;h3&gt;K-Means Clustering op Hardloopdata&lt;/h3&gt;
-  &lt;p&gt;Unsupervised machine learning om onzichtbare trainingsprofielen (tempo, hartslag, afstand) te ontdekken in een Garmin-dataset.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="project-meta"&gt;
-  &lt;span class="project-tech"&gt;Python / Scikit-Learn&lt;/span&gt;
-  &lt;span class="project-link"&gt;Bekijk Code →&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-</a><p><a href="datalab.html" class="project-item"></a></p>
-<!-- Project 2 (Linkt naar je blog/pierewaai post) --> <a href="blog.html" class="project-item"> <span class="project-num">02</span>
-</a><div class="project-info"><a href="blog.html" class="project-item">
-<pre><code>  &lt;h3&gt;Pierewaai 2026 (60k)&lt;/h3&gt;
-  &lt;p&gt;Wedstrijdverslag en analyse van mijn 60km ultra-run aan de kust als voorbereiding op juli.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="project-meta"&gt;
-  &lt;span class="project-tech"&gt;Race Report&lt;/span&gt;
-  &lt;span class="project-link"&gt;Lees Post →&lt;/span&gt;
-&lt;/div&gt;</code></pre>
-</a><p><a href="blog.html" class="project-item"></a></p>
-</div>
-</div></div></section>
-</main></div>
+    &lt;div class="project-item"&gt;
+      &lt;span class="project-num" aria-hidden="true"&gt;01&lt;/span&gt;
+      &lt;div class="project-info"&gt;
+        &lt;h3&gt;Hardloopdata Netwerk&lt;/h3&gt;
+        &lt;p&gt;
+          Een regressiemodel en neuraal netwerk gebouwd in Python om persoonlijke hardloopprestaties en racetijden te voorspellen op basis van historische Garmin-data.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="project-meta"&gt;
+        &lt;span class="project-tech"&gt;Python / Machine Learning&lt;/span&gt;
+        &lt;a href="datalab.html" class="project-link" aria-label="Bekijk project"&gt;Bekijk Project &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
+    &lt;div class="project-item"&gt;
+      &lt;span class="project-num" aria-hidden="true"&gt;02&lt;/span&gt;
+      &lt;div class="project-info"&gt;
+        &lt;h3&gt;K-Means Clustering&lt;/h3&gt;
+        &lt;p&gt;
+          Unsupervised machine learning toepassing om onzichtbare structuur te ontdekken in trainingssessies. Categoriseert duurlopen en tempo-runs op basis van afstand en gemiddelde hartslag.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="project-meta"&gt;
+        &lt;span class="project-tech"&gt;Scikit-Learn / Plotly&lt;/span&gt;
+        &lt;a href="datalab.html" class="project-link" aria-label="Bekijk code"&gt;Bekijk Code &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-<!-- 5. CONTACT & FOOTER -->
-<section id="contact">
-<h2 class="section-label">
-<ol start="4" type="1">
-<li>CONNECT
-</li></ol></h2>
-<div class="contact-big">
-<p>LET’S BUILD<br>SOMETHING.</p>
-</div>
-<div class="contact-links">
-<p><a href="mailto:jouw.email@gmail.com">EMAIL <span class="arrow">→</span></a> <a href="https://github.com/SobotanNiedziela">GITHUB <span class="arrow">→</span></a> <a href="https://linkedin.com/in/jouw-naam">LINKEDIN <span class="arrow">→</span></a></p>
-</div>
-</section>
+    &lt;div class="project-item"&gt;
+      &lt;span class="project-num" aria-hidden="true"&gt;03&lt;/span&gt;
+      &lt;div class="project-info"&gt;
+        &lt;h3&gt;Pierewaai 60k Race Report&lt;/h3&gt;
+        &lt;p&gt;
+          Verslag en tactische analyse van een 60km ultra-run langs de kust als generale repetitie voor het zwaardere klimwerk in het hooggebergte.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="project-meta"&gt;
+        &lt;span class="project-tech"&gt;Blog / Quarto&lt;/span&gt;
+        &lt;a href="blog.html" class="project-link" aria-label="Lees verslag"&gt;Lees Post &lt;span aria-hidden="true"&gt;↗&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-<footer>
-<span>© 2026 JAKUB SOBOTKA</span> <span>BUILT WITH QUARTO &amp; PYTHON</span>
-</footer>
+  &lt;/div&gt;
+&lt;/section&gt;
 
-
+&lt;section id="experience"&gt;
+  &lt;h2 class="section-label"&gt;Ervaring&lt;/h2&gt;
+  &lt;div class="exp-list"&gt;</code></pre>
 
 
 
@@ -684,7 +687,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
- <!-- /content -->
+</main></div> <!-- /content -->
 
 
 
