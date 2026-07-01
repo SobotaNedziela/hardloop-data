@@ -6,7 +6,6 @@ page-layout: custom
 
 ```{=html}
 <main>
-  <!-- Hero -->
   <section id="hero">
     <div class="hero-name">
       <span>JAKUB</span>
