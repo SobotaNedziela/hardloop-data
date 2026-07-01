@@ -2,18 +2,6 @@ project:
   type: website
   output-dir: _site
 
-website:
-  title: "Sobotka"
-  navbar:
-    background: "#2c3e50"  
-    left:
-      - text: "Data Lab"
-        href: datalab.html
-      - text: "Blog"
-        href: blog.html
-    right:
-      - text: "🇵🇱 Polski"
-        href: https://sobotka-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=pl
 format:
   html:
    theme: 
