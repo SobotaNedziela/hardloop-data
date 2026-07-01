@@ -143,28 +143,143 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- Zwevende Navigatie onderaan het scherm -->
+<nav>
+<a href="#hero">HOME</a><span class="sep">/</span> <a href="#about">OVER MIJ</a><span class="sep">/</span> <a href="#skills">SKILLS</a><span class="sep">/</span> <a href="#projects">DATA LAB</a><span class="sep">/</span> <a href="#contact">CONTACT</a>
+</nav>
 <main>
-  <section id="hero">
-    <div class="hero-name">
-      <span>JAKUB</span>
-      <span>SOBOTKA<span class="blink" aria-hidden="true">_</span></span>
-    </div>
-    
-    <p class="hero-tag">
-      <span class="highlight">TOEGEPASTE WISKUNDE</span> —
-      BOUWEN AAN:
-      <span class="highlight">DATA SCIENCE</span>,
-      <span class="highlight">MACHINE LEARNING</span>,
-      <span class="highlight">DUUR SPORT</span>.
-    </p>
-    
-    <div class="hero-meta">
-      <span>AMSTERDAM</span>
-      <span>HOGESCHOOL VAN AMSTERDAM</span>
-      <span>DATA LAB</span>
-    </div>
-  </section>
-</main>
+<section id="hero">
+<div class="hero-name">
+<pre><code>  &lt;span&gt;JAKUB&lt;/span&gt;
+  &lt;span&gt;SOBOTKA&lt;span class="blink" aria-hidden="true"&gt;_&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p class="hero-tag"&gt;
+  &lt;span class="highlight"&gt;TOEGEPASTE WISKUNDE&lt;/span&gt; &amp;mdash;
+  BOUWEN AAN:
+  &lt;span class="highlight"&gt;DATA SCIENCE&lt;/span&gt;,
+  &lt;span class="highlight"&gt;MACHINE LEARNING&lt;/span&gt;,
+  &lt;span class="highlight"&gt;DUUR SPORT&lt;/span&gt;.
+&lt;/p&gt;
+
+&lt;div class="hero-meta"&gt;
+  &lt;span&gt;AMSTERDAM&lt;/span&gt;
+  &lt;span&gt;HOGESCHOOL VAN AMSTERDAM&lt;/span&gt;
+  &lt;span&gt;DATA LAB&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</div></section>
+<!-- 2. OVER MIJ SECTIE -->
+<section id="about">
+<h2 class="section-label anchored">
+<ol type="1">
+<li>OVER MIJ
+</li></ol></h2>
+<div class="about-grid">
+<div class="about-text">
+<pre><code>&lt;p&gt;Ik ben student &lt;strong&gt;Applied Mathematics&lt;/strong&gt; met een passie voor het snijvlak tussen zuivere wiskunde, programmeren en fysieke grenzen.&lt;/p&gt;
+&lt;p&gt;In plaats van te werken met standaard datasets, bouw ik analytische modellen rondom mijn eigen fysiologische data. Naast code en formules vind je mij buiten; momenteel in training voor ultra-marathons en een Ironman.&lt;/p&gt;
+&lt;p&gt;Daarnaast ben ik lokaal politiek actief in de gemeente Velsen.&lt;/p&gt;</code></pre>
+</div>
+<div class="about-stats">
+<pre><code>&lt;div class="stat-item"&gt;
+  &lt;span class="stat-val"&gt;170km&lt;/span&gt;
+  &lt;span class="stat-label"&gt;Doel: Polen Ultra&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="stat-item"&gt;
+  &lt;span class="stat-val"&gt;Python&lt;/span&gt;
+  &lt;span class="stat-label"&gt;Primary Stack&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</div>
+</div>
+</section>
+
+<!-- 3. SKILLS SECTIE -->
+<section id="skills">
+<h2 class="section-label anchored">
+<ol start="2" type="1">
+<li>SKILLS &amp; ARSENAAL
+</li></ol></h2>
+<div class="skills-grid">
+<div class="skill-group">
+<pre><code>&lt;h3&gt;Wiskunde &amp; ML&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Machine Learning (Unsupervised)&lt;/li&gt;
+  &lt;li&gt;Tijdreeksanalyse (ARIMA)&lt;/li&gt;
+  &lt;li&gt;Differentiaalvergelijkingen&lt;/li&gt;
+  &lt;li&gt;Signaalverwerking (Fourier)&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+<div class="skill-group">
+<pre><code>&lt;h3&gt;Programming&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python (Pandas, Plotly, Scikit)&lt;/li&gt;
+  &lt;li&gt;R &amp; Quarto&lt;/li&gt;
+  &lt;li&gt;SQL&lt;/li&gt;
+  &lt;li&gt;Git &amp; GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+<div class="skill-group">
+<pre><code>&lt;h3&gt;Domein Kennis&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fysiologische Data-analyse&lt;/li&gt;
+  &lt;li&gt;Sportbiomechanica&lt;/li&gt;
+  &lt;li&gt;Lokale Politiek &amp; Beleid&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+</div>
+</section>
+
+<!-- 4. DATA LAB / PROJECTS SECTIE -->
+<section id="projects">
+<h2 class="section-label anchored">
+<ol start="3" type="1">
+<li>DATA LAB &amp; BLOG
+</li></ol></h2>
+<div class="projects-list">
+<!-- Project 1 (Linkt naar je datalab pagina) --> <a href="datalab.html" class="project-item"> <span class="project-num">01</span>
+</a><div class="project-info"><a href="datalab.html" class="project-item">
+<pre><code>  &lt;h3&gt;K-Means Clustering op Hardloopdata&lt;/h3&gt;
+  &lt;p&gt;Unsupervised machine learning om onzichtbare trainingsprofielen (tempo, hartslag, afstand) te ontdekken in een Garmin-dataset.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="project-meta"&gt;
+  &lt;span class="project-tech"&gt;Python / Scikit-Learn&lt;/span&gt;
+  &lt;span class="project-link"&gt;Bekijk Code →&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</a><p><a href="datalab.html" class="project-item"></a></p>
+<!-- Project 2 (Linkt naar je blog/pierewaai post) --> <a href="blog.html" class="project-item"> <span class="project-num">02</span>
+</a><div class="project-info"><a href="blog.html" class="project-item">
+<pre><code>  &lt;h3&gt;Pierewaai 2026 (60k)&lt;/h3&gt;
+  &lt;p&gt;Wedstrijdverslag en analyse van mijn 60km ultra-run aan de kust als voorbereiding op juli.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="project-meta"&gt;
+  &lt;span class="project-tech"&gt;Race Report&lt;/span&gt;
+  &lt;span class="project-link"&gt;Lees Post →&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</a><p><a href="blog.html" class="project-item"></a></p>
+</div>
+</div></div></section>
+</main></div>
+
+
+<!-- 5. CONTACT & FOOTER -->
+<section id="contact">
+<h2 class="section-label">
+<ol start="4" type="1">
+<li>CONNECT
+</li></ol></h2>
+<div class="contact-big">
+<p>LET’S BUILD<br>SOMETHING.</p>
+</div>
+<div class="contact-links">
+<p><a href="mailto:jouw.email@gmail.com">EMAIL <span class="arrow">→</span></a> <a href="https://github.com/SobotanNiedziela">GITHUB <span class="arrow">→</span></a> <a href="https://linkedin.com/in/jouw-naam">LINKEDIN <span class="arrow">→</span></a></p>
+</div>
+</section>
+
+<footer>
+<span>© 2026 JAKUB SOBOTKA</span> <span>BUILT WITH QUARTO &amp; PYTHON</span>
+</footer>
+
+
 
 
 
@@ -569,7 +684,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+ <!-- /content -->
 
 
 
