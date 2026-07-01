@@ -59,11 +59,11 @@ page-layout: custom
         <div class="about-stats">
           <div class="stat-item">
             <span class="stat-val">170km</span>
-            <span class="stat-label">Doel: Polen Ultra</span>
+            <span class="stat-label">Doel: DFBG Polen</span>
           </div>
           <div class="stat-item">
-            <span class="stat-val">Python</span>
-            <span class="stat-label">Primary Stack</span>
+            <span class="stat-val">Propedeuse TW</span>
+            <span class="stat-label">7,5 gemiddeld</span>
           </div>
         </div>
       </div>
