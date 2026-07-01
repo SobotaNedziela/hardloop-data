@@ -5,7 +5,17 @@ page-layout: custom
 ---
 
 ```{=html}
+<!-- Zwevende Navigatie onderaan het scherm -->
+<nav>
+  <a href="#hero">HOME</a><span class="sep">/</span>
+  <a href="#about">OVER MIJ</a><span class="sep">/</span>
+  <a href="#skills">SKILLS</a><span class="sep">/</span>
+  <a href="#projects">DATA LAB</a><span class="sep">/</span>
+  <a href="#contact">CONTACT</a>
+</nav>
+
 <main>
+
   <section id="hero">
     <div class="hero-name">
       <span>JAKUB</span>
@@ -26,5 +36,112 @@ page-layout: custom
       <span>DATA LAB</span>
     </div>
   </section>
+
+  <!-- 2. OVER MIJ SECTIE -->
+  <section id="about">
+    <h2 class="section-label">01. OVER MIJ</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Ik ben student <strong>Applied Mathematics</strong> met een passie voor het snijvlak tussen zuivere wiskunde, programmeren en fysieke grenzen.</p>
+        <p>In plaats van te werken met standaard datasets, bouw ik analytische modellen rondom mijn eigen fysiologische data. Naast code en formules vind je mij buiten; momenteel in training voor ultra-marathons en een Ironman.</p>
+        <p>Daarnaast ben ik lokaal politiek actief in de gemeente Velsen.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-item">
+          <span class="stat-val">170km</span>
+          <span class="stat-label">Doel: Polen Ultra</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-val">Python</span>
+          <span class="stat-label">Primary Stack</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SKILLS SECTIE -->
+  <section id="skills">
+    <h2 class="section-label">02. SKILLS & ARSENAAL</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Wiskunde & ML</h3>
+        <ul>
+          <li>Machine Learning (Unsupervised)</li>
+          <li>Tijdreeksanalyse (ARIMA)</li>
+          <li>Differentiaalvergelijkingen</li>
+          <li>Signaalverwerking (Fourier)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Programming</h3>
+        <ul>
+          <li>Python (Pandas, Plotly, Scikit)</li>
+          <li>R & Quarto</li>
+          <li>SQL</li>
+          <li>Git & GitHub Actions</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Domein Kennis</h3>
+        <ul>
+          <li>Fysiologische Data-analyse</li>
+          <li>Sportbiomechanica</li>
+          <li>Lokale Politiek & Beleid</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. DATA LAB / PROJECTS SECTIE -->
+  <section id="projects">
+    <h2 class="section-label">03. DATA LAB & BLOG</h2>
+    <div class="projects-list">
+      
+      <!-- Project 1 (Linkt naar je datalab pagina) -->
+      <a href="datalab.html" class="project-item">
+        <span class="project-num">01</span>
+        <div class="project-info">
+          <h3>K-Means Clustering op Hardloopdata</h3>
+          <p>Unsupervised machine learning om onzichtbare trainingsprofielen (tempo, hartslag, afstand) te ontdekken in een Garmin-dataset.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-tech">Python / Scikit-Learn</span>
+          <span class="project-link">Bekijk Code →</span>
+        </div>
+      </a>
+
+      <!-- Project 2 (Linkt naar je blog/pierewaai post) -->
+      <a href="blog.html" class="project-item">
+        <span class="project-num">02</span>
+        <div class="project-info">
+          <h3>Pierewaai 2026 (60k)</h3>
+          <p>Wedstrijdverslag en analyse van mijn 60km ultra-run aan de kust als voorbereiding op juli.</p>
+        </div>
+        <div class="project-meta">
+          <span class="project-tech">Race Report</span>
+          <span class="project-link">Lees Post →</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- 5. CONTACT & FOOTER -->
+  <section id="contact">
+    <h2 class="section-label">04. CONNECT</h2>
+    <div class="contact-big">
+      LET'S BUILD<br>SOMETHING.
+    </div>
+    <div class="contact-links">
+      <a href="mailto:jouw.email@gmail.com">EMAIL <span class="arrow">→</span></a>
+      <a href="https://github.com/SobotanNiedziela">GITHUB <span class="arrow">→</span></a>
+      <a href="https://linkedin.com/in/jouw-naam">LINKEDIN <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 JAKUB SOBOTKA</span>
+    <span>BUILT WITH QUARTO & PYTHON</span>
+  </footer>
+
 </main>
-```
