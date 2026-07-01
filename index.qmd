@@ -45,6 +45,7 @@ page-layout: custom
           <p>
             Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duur sporter, in training voor aankomende ultra-marathons (170+km) en de Ironman Klagenfurt.
           </p>
+          <img src="images/3.jpg" alt="Jakub Sobotka, Toegepaste Wiskunde student" class="headshot">
         </div>
     </section>
 
