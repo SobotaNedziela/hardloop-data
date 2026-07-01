@@ -233,6 +233,27 @@ section {
   color: var(--muted);
 }
 
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Positioneert de foto en geeft het de strakke brutalist stijl */
+.about-visual {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 450px;  /* Zorgt dat de foto niet te massief wordt */
+  height: auto;
+  border: 1px solid var(--divider);
+  display: block;
+}
+
 /* ── Skills ── */
 .skills-grid {
   display: grid;
