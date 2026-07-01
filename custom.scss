@@ -1,18 +1,61 @@
 /*-- scss:defaults --*/
-/* 1. Quarto Variabelen Overschrijven (Dit moet altijd onder de 'defaults' vlag) */
-$body-bg: #FAFAFA;
-$body-color: #2b2b2b;
-$link-color: #4A5568;
-$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* 1. Importeer het typemachine lettertype van Google */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* 2. Quarto Variabelen Overschrijven (Terminal Kleuren) */
+$body-bg: #050505;                /* Zwarte achtergrond */
+$body-color: #FFFFFF;             /* Witte tekst */
+$link-color: #666666;             /* Grijze links (muted) */
+$link-hover-color: #FFFFFF;       /* Links lichten op bij hover */
+$font-family-base: 'Space Mono', 'Courier New', 'Consolas', monospace;
+$border-color: #222222;           /* Donkergrijze, harde lijnen */
 
 /*-- scss:rules --*/
-/* 2. Jouw eigen, harde CSS regels (Dit moet altijd onder de 'rules' vlag) */
-.navbar {
-  background-color: rgba(255, 255, 255, 0.9) !important;
-  border-bottom: 1px solid #E2E8F0;
-  backdrop-filter: blur(10px);
+/* 3. Jouw eigen, harde CSS regels */
+
+/* Tekst selecteren (Markeren in terminal stijl: Wit blok, zwarte tekst) */
+::selection {
+  background: #FFFFFF;
+  color: #050505;
 }
 
+/* Navigatiebalk in Brutalist stijl */
+.navbar {
+  background: rgba(20, 20, 20, 0.88) !important;
+  border-bottom: 1px solid #222222 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  backdrop-filter: blur(8px);
+}
+
+/* Linkjes in de navigatie */
+.navbar-nav .nav-link {
+  color: #666666 !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+/* Titels scherper en strakker maken */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+/* Tabellen en Projectlijsten (Voor je Data Lab pagina) */
+.quarto-listing-table, .table {
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  color: #CCCCCC;
+}
+
+/* Verwijder de zachte afronding van foto's (Brutalist = harde hoeken) */
 img {
-  border-radius: 4px;
+  border-radius: 0 !important;
+  border: 1px solid #333333;
 }
