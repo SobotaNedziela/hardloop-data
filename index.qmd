@@ -13,15 +13,15 @@ page-layout: custom
     </div>
     
     <p class="hero-tag">
-      <span class="highlight">APPLIED MATHEMATICS</span> &mdash;
-      BUILDING AT THE INTERSECTION OF
+      <span class="highlight">TOEGEPASTE WISKUNDE</span> &mdash;
+      BOUWEN AAN:
       <span class="highlight">DATA SCIENCE</span>,
       <span class="highlight">MACHINE LEARNING</span>, AND
-      <span class="highlight">ENDURANCE SPORTS</span>.
+      <span class="highlight">DUUR SPORT</span>.
     </p>
     
     <div class="hero-meta">
-      <span>VELSEN, NL</span>
+      <span>AMSTERDAM</span>
       <span>HOGESCHOOL VAN AMSTERDAM</span>
       <span>DATA LAB</span>
     </div>
