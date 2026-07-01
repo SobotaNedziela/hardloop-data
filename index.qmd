@@ -95,7 +95,7 @@ page-layout: custom
         </div>
 
         <div class="skills-visual">
-          <img src="images/code.jpeg" alt="Data & Code" class="skills-img">
+          <img src="images/code.jpeg" alt="Skills" class="skills-img">
         </div>
 
       </div>
