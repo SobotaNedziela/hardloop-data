@@ -1,11 +1,26 @@
 ---
-title: "Sobotka | Data Lab"
+page-layout: custom
 ---
 
-Welkom op mijn website.
-
-Hier combineer ik toegepaste wiskunde met ultra duursport. 
-
-![](images/cpcfinish.jpg){fig-alt="Een foto van mij"}
-
-Alles is nog "under construction". :)
+<main>
+  <section id="hero">
+    <div class="hero-name">
+      <span>JAKUB</span>
+      <span>SOBOTKA<span class="blink" aria-hidden="true">_</span></span>
+    </div>
+    
+    <p class="hero-tag">
+      <span class="highlight">APPLIED MATHEMATICS</span> &mdash;
+      BUILDING AT THE INTERSECTION OF
+      <span class="highlight">DATA SCIENCE</span>,
+      <span class="highlight">MACHINE LEARNING</span>, AND
+      <span class="highlight">ENDURANCE SPORTS</span>.
+    </p>
+    
+    <div class="hero-meta">
+      <span>VELSEN, NL</span>
+      <span>HOGESCHOOL VAN AMSTERDAM</span>
+      <span>DATA LAB</span>
+    </div>
+  </section>
+</main>
