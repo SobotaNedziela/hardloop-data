@@ -66,6 +66,9 @@ page-layout: custom
             <span class="stat-label">7,5 gemiddeld</span>
           </div>
         </div>
+          <div class="about">
+          <img src="images/uhut.jpeg" alt="Jakub Sobotka" class="about-img">
+        </div>
       </div>
     </section>
 
