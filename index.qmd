@@ -15,38 +15,58 @@ page-layout: custom
 
   <main>
 
- <section id="hero">
-    <div class="hero-name">
-      <span>JAKUB</span>
-      <span>SOBOTKA<span class="blink" aria-hidden="true">_</span></span>
-    </div>
-    <p class="hero-tag">
-      <span class="highlight">TOEGEPASTE WISKUNDE</span> &mdash;
-      BOUWEN AAN:
-      <span class="highlight">DATA SCIENCE</span>,
-      <span class="highlight">MACHINE LEARNING</span>,
-      <span class="highlight">DUUR SPORT</span>.
-    </p>  
-    <div class="hero-meta">
-      <span>AMSTERDAM</span>
-      <span>HOGESCHOOL VAN AMSTERDAM</span>
-      <span>DATA LAB</span>
-    </div>
+    <section id="hero">
+      <div class="hero-grid">
+        
+        <div class="hero-text">
+          <div class="hero-name">
+            <span>JAKUB</span>
+            <span>SOBOTKA</span>
+          </div>
+          <p class="hero-tag">
+            <span class="highlight">TOEGEPASTE WISKUNDE</span> &mdash;
+            BOUWEN AAN:
+            <span class="highlight">DATA SCIENCE</span>,
+            <span class="highlight">MACHINE LEARNING</span>,
+            <span class="highlight">DUURSPORT</span>.
+          </p>  
+          <div class="hero-meta">
+            <span>AMSTERDAM</span>
+            <span>HOGESCHOOL VAN AMSTERDAM</span>
+            <span>DATA LAB</span>
+          </div>
+        </div>
 
-  </section>
+        <div class="hero-visual">
+          <img src="images/3.jpg" alt="Jakub Sobotka" class="hero-img">
+        </div>
+
+      </div>
+    </section>
+
     <section id="about">
       <h2 class="section-label">Over Mij</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
             Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam. 
-            Ik werk met data en modelleer het wiskundig bouw systemen die patronen zichtbaar maken.
+            Ik werk met data, modelleer het wiskundig en bouw systemen die patronen zichtbaar maken.
           </p>
           <p>
-            Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duur sporter, in training voor aankomende ultra-marathons (170+km) en de Ironman Klagenfurt.
+            Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) and de Ironman Klagenfurt.
           </p>
-          <img src="images/3.jpg" alt="Jakub Sobotka, Toegepaste Wiskunde student" class="headshot">
         </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-val">170km</span>
+            <span class="stat-label">Doel: Polen Ultra</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">Python</span>
+            <span class="stat-label">Primary Stack</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
@@ -68,6 +88,7 @@ page-layout: custom
             <li>Git / GitHub</li>
           </ul>
         </div>
+      </div>
     </section>
 
     <section id="projects">
@@ -79,7 +100,7 @@ page-layout: custom
           <div class="project-info">
             <h3>Hardloopdata Netwerk</h3>
             <p>
-              Een eerste introcutie tot Python om mijn persoonlijke hardloopprestaties te voorspellen en visualiseren op basis van mijn eigen Garmin-data.
+              Een eerste introductie tot Python om mijn persoonlijke hardloopprestaties te voorspellen en visualiseren op basis van mijn eigen Garmin-data.
             </p>
           </div>
           <div class="project-meta">
@@ -90,5 +111,25 @@ page-layout: custom
 
       </div>
     </section>
+
+    <section id="contact">
+      <h2 class="section-label">Contact</h2>
+      <p class="contact-big">Let's connect.</p>
+      <div class="contact-links">
+        <a href="[https://github.com/SobotanNiedziela](https://github.com/SobotanNiedziela)" target="_blank" rel="noopener noreferrer">
+          GitHub <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a href="mailto:jouw.email@gmail.com">
+          Email <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Jakub Sobotka</span>
+    <span>Built with Quarto & Python</span>
+  </footer>
 
 ```
