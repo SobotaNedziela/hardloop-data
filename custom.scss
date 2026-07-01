@@ -155,22 +155,27 @@ section {
 /* ── Hero Split Layout ── */
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; /* Exacte 50/50 verdeling */
   gap: 4rem;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px; /* Iets breder voor een ruimtelijker effect op grote schermen */
   width: 100%;
+  margin: 0 auto;    /* CRUCIAAL: Dit centreert de hele grid als je scherm breder is dan 1400px */
 }
 
 .hero-visual {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; /* Duwt de foto mooi naar de rechterkant */
+  width: 100%;
+  height: 100%;
 }
 
 .hero-img {
   width: 100%;
-  max-width: 450px;
-  height: auto;
+  max-width: none; /* Verwijdert eerdere limieten, pakt nu echt de volle 50% */
+  height: 100%; 
+  max-height: 75vh; /* Voorkomt dat de foto gigantisch hoog wordt op 4K schermen */
+  object-fit: cover; /* Zorgt dat de foto de ruimte vult als een strak kader, zonder uit te rekken */
   border: 1px solid var(--divider);
   display: block;
 }
@@ -451,7 +456,7 @@ footer {
 
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   #hero {
