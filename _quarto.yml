@@ -6,4 +6,5 @@ format:
   html:
    theme: 
     - darkly          
-    - custom.scss       
+    - custom.scss  
+    include-before-body: nav.html
