@@ -508,3 +508,38 @@ footer {
     gap: 0.15rem;
   }
 }
+
+```css
+/* ── Hero Split Layout Rules ── */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 4rem;                     
+  align-items: center;            
+  max-width: 1200px;
+  width: 100%;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 450px;             
+  height: auto;
+  border: 1px solid var(--divider); 
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  #hero {
+    padding-top: 10vh;
+  }
+}
