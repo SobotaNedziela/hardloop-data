@@ -114,9 +114,8 @@ page-layout: custom
 
     <section id="contact">
       <h2 class="section-label">Contact</h2>
-      <p class="contact-big">Neem contact op via Github of stuur een e-mail.</p>
       <div class="contact-links">
-        <a href="[https://github.com/SobotaNedziela](https://github.com/SobotaNedziela)" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/SobotaNedziela" target="_blank" rel="noopener noreferrer">
           GitHub <span class="arrow" aria-hidden="true">↗</span>
         </a>
         <a href="mailto:sobotka.data@gmail.com">
