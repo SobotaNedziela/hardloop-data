@@ -68,26 +68,36 @@ page-layout: custom
         </div>
 
       </div>
-    </section>
-    <section id="skills">
+
+<section id="skills">
       <h2 class="section-label">Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Talen & Code</h3>
-          <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>LaTeX</li>
-          </ul>
+      <div class="skills-layout">
+        
+        <div class="skills-content">
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Talen & Code</h3>
+              <ul>
+                <li>Python</li>
+                <li>R</li>
+                <li>LaTeX</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Tools & Platforms</h3>
+              <ul>
+                <li>Jupyter Lab</li>
+                <li>Quarto</li>
+                <li>Git / GitHub</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="skill-group">
-          <h3>Tools & Platforms</h3>
-          <ul>
-            <li>Jupyter Lab</li>
-            <li>Quarto</li>
-            <li>Git / GitHub</li>
-          </ul>
+
+        <div class="skills-visual">
+          <img src="images/code.jpeg" alt="Data & Code" class="skills-img">
         </div>
+
       </div>
     </section>
 
