@@ -16,5 +16,6 @@ website:
         href: https://sobotka-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=pl
 format:
   html:
-    theme: cosmo          
-    code-fold: true       
+   theme: 
+    - cosmo          
+    - custom.scss       
