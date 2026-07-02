@@ -26,7 +26,34 @@ $body-color: #FFFFFF;
   background: var(--fg);
   color: var(--bg);
 }
+/* ── Site Logo ── */
+.site-logo {
+  position: fixed;
+  top: 3rem;
+  left: 8vw; 
+  z-index: 1000;
+  transition: opacity 0.2s ease;
+}
 
+.site-logo:hover {
+  opacity: 0.7; 
+}
+
+.site-logo img {
+  height: 60px; 
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .site-logo {
+    top: 2rem;
+    left: 6vw;
+  }
+  .site-logo img {
+    height: 45px; 
+  }
+}
 /* ── Base ── */
 html {
   font-size: 16px;
