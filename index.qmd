@@ -12,6 +12,10 @@ include-in-header:
 
   <main>
 
+    <a href="/index.html" class="site-logo">
+      <img src="images/logo.jpg" alt="JS Logo">
+    </a>
+
     <section id="hero">
       <div class="hero-grid">
         
