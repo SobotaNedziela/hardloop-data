@@ -1,5 +1,4 @@
 ---
----
 title: "Data Lab & Projecten"
 page-layout: full
 listing:
