@@ -129,7 +129,7 @@ include-in-header:
 
   <section id="blogs">
       <h2 class="section-label">
-        <a href="/posts.html" style="color: inherit; text-decoration: none;">Mijn blog <span aria-hidden="true">↗</span></a>
+        <a href="/blog.html" style="color: inherit; text-decoration: none;">Mijn blog <span aria-hidden="true">↗</span></a>
       </h2>
       <div class="projects-list">
 
@@ -143,7 +143,7 @@ include-in-header:
           </div>
           <div class="project-meta">
             <span class="project-tech">Race Report / Data</span>
-            <a href="/posts.html" class="project-link" aria-label="Ga naar alle posts">Lees Blogs <span aria-hidden="true">↗</span></a>
+            <a href="/Posts.html" class="project-link" aria-label="Ga naar alle posts">Lees Blogs <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
