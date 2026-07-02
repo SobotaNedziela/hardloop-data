@@ -1,19 +1,11 @@
 ---
 title: "Jakub Sobotka"
 page-layout: custom
-include-in-header:
-  text: |
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/jpeg" href="images/JS.jpg">
 ---
 
 ```{=html}
 
   <main>
-
-    <a href="/index.html" class="site-logo">
-      <img src="images/JS.jpg" alt="JS Logo">
-    </a>
 
     <section id="hero">
       <div class="hero-grid">
