@@ -143,7 +143,7 @@ page-layout: custom
 
   <footer>
     <span>© 2026 Jakub Sobotka</span>
-    <span>Built with Quarto & Python</span>
+    <span>Built with Github & Python</span>
   </footer>
 
 ```
