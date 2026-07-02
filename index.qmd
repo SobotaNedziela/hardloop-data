@@ -102,7 +102,9 @@ page-layout: custom
     </section>
 
     <section id="projects">
-      <h2 class="section-label">Data Lab & Projecten</h2>
+      <h2 class="section-label">
+        <a href="/datalab.html" style="color: inherit; text-decoration: none;">Data Lab & Projecten <span aria-hidden="true">↗</span></a>
+      </h2>
       <div class="projects-list">
 
         <div class="project-item">
