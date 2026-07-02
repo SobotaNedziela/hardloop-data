@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Lab</title>
+<title>Data Lab &amp; Projecten</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,16 +133,18 @@ window.Quarto = {
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 <nav aria-label="Main navigation">
   <a href="./index.html#hero">Home</a><span class="sep" aria-hidden="true">/</span>
   <a href="./index.html#about">Over Mij</a><span class="sep" aria-hidden="true">/</span>
@@ -153,12 +155,12 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Lab</h1>
+<h1 class="title">Data Lab &amp; Projecten</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -170,69 +172,66 @@ window.Quarto = {
 </header>
 
 
+<p>title: “Data Lab &amp; Projecten” page-layout: full listing: contents: - “projects” - “Posts” type: default sort: “date desc” categories: true —</p>
 <p>Hier vind je al mijn data-projecten.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1782979077007" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
+<div class="thumbnail"><a href="./Posts/Pierewaai 2026.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="images/pierewaai1.jpeg" alt="Foto tijdens de run"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Posts/Pierewaai 2026.html" class="no-external">Pierewaai 60k</a>
+</h3>
+<div class="delink listing-description"><a href="./Posts/Pierewaai 2026.html" class="no-external">
+Op 21 juni 2026 deed ik mee aan de Pierewaai. De planning hiervoor was om rustig mee te doen en deze wedstrijd te gebruiken als generale repetitie voor de DFBG in juli.
+</a></div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+<div class="metadata">
+<a href="./Posts/Pierewaai 2026.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5n" data-listing-date-sort="1782345600000" data-listing-file-modified-sort="1782979077087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
+<div class="thumbnail"><a href="./projects/garminpython.html" class="no-external">
 
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
+<img loading="lazy" src="./projects/thumbnail.jpg" class="thumbnail-image">
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./projects/garminpython.html" class="no-external">Jakub’s hardloop data</a>
+</h3>
+<div class="listing-categories">
 
-<th>
-Categories
-</th>
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
 
-</tr>
-</thead>
-<tbody class="list">
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
 
-<tr data-index="0" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5n" data-listing-date-sort="1782345600000" data-listing-file-modified-sort="1782978107050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266" data-listing-title-sort="Jakub's hardloop data" data-listing-filename-sort="garminpython.ipynb">
-<td>
-<span class="listing-date">Jun 25, 2026</span>
-</td>
-<td>
-<a href="./projects/garminpython.html" class="title listing-title">Jakub’s hardloop data</a>
-</td>
-<td>
-<span class="listing-categories">Python, Machine Learning</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
+</div>
+<div class="delink listing-description"><a href="./projects/garminpython.html" class="no-external">
+<p>Een netwerk voor hardloopprestaties.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./projects/garminpython.html" class="no-external">
+<div class="listing-date">
+Jun 25, 2026
+</div>
+<div class="listing-author">
+Sobotka
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
