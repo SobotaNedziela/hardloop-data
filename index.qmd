@@ -57,7 +57,7 @@ page-layout: custom
             </div>
             <div class="stat-item">
               <span class="stat-val">Propedeuse TW</span>
-              <span class="stat-label">7,5 gemiddeld</span>
+              <span class="stat-label">7,7 gemiddeld</span>
             </div>
           </div>
         </div>
