@@ -1,9 +1,14 @@
 ---
-title: "Data Lab"
+---
+title: "Data Lab & Projecten"
+page-layout: full
 listing:
-  contents: projects
-  type: table
-  fields: [date, title, categories]
+  contents: 
+    - "projects"
+    - "Posts"
+  type: default
+  sort: "date desc"
+  categories: true
 ---
 
 Hier vind je al mijn data-projecten.
