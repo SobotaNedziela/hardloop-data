@@ -115,7 +115,7 @@ page-layout: custom
           </div>
           <div class="project-meta">
             <span class="project-tech">Python / Machine Learning</span>
-            <a href="datalab.html" class="project-link" aria-label="Bekijk project">Bekijk Project <span aria-hidden="true">↗</span></a>
+            <a href="projects/garminpython.html" class="project-link" aria-label="Bekijk project">Bekijk Project <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
