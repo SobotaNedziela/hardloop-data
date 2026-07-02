@@ -10,5 +10,4 @@ include-in-header:
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/jpeg" href="images/JS loog.jpg">
 ---
-
 Hier schrijf ik over mijn ervaringen met ultra marathons en andere avonturen. 
