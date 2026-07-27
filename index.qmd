@@ -34,7 +34,7 @@ include-in-header:
         </div>
 
         <div class="hero-visual">
-          <img src="images/3.jpg" alt="Jakub Sobotka" class="hero-img">
+          <img src="images/Jakub.jpg" alt="Jakub Sobotka" class="hero-img">
         </div>
 
       </div>
