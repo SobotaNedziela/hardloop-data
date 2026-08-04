@@ -48,7 +48,7 @@ include-in-header:
           <div class="about-text">
             <p>
               Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam. 
-              Ik werk met data, modelleer het wiskundig en bouw systemen die patronen zichtbaar maken.
+              Met de hulp van wiskunde los ik vraagstukken op.
             </p>
             <p>
               Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) en de Ironman Klagenfurt.
