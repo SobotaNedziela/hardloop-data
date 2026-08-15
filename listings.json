@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/datalab.html",
+    "listing": "/blog.html",
     "items": [
-      "/projects/garminpython.html"
+      "/Posts/DFBG \"Sto Mil\" (DNF).html",
+      "/Posts/Pierewaai 2026.html"
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/datalab.html",
     "items": [
-      "/Posts/Pierewaai 2026.html"
+      "/projects/garminpython.html"
     ]
   }
 ]
