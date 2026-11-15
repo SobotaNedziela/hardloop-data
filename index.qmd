@@ -47,11 +47,10 @@ include-in-header:
         <div class="about-content">
           <div class="about-text">
             <p>
-              Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam. 
-              Met de hulp van wiskunde los ik vraagstukken op.
+              Student <strong>Toegepaste Wiskunde (Applied Mathematics)</strong> aan de Hogeschool van Amsterdam.
             </p>
             <p>
-              Mijn projecten focussen zich sterk op fysiologische data. Ik bouw machine learning modellen op mijn eigen trainingsdata. Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) en de Ironman Klagenfurt.
+              Naast het programmeren ben ik een duursport atleet, in training voor aankomende ultra-marathons (170+km) en de Ironman Klagenfurt.
             </p>
           </div>
           <div class="about-stats">
@@ -61,7 +60,7 @@ include-in-header:
             </div>
             <div class="stat-item">
               <span class="stat-val">Propedeuse TW</span>
-              <span class="stat-label">7,7 gemiddeld</span>
+              <span class="stat-label">7,5 gemiddeld</span>
             </div>
           </div>
         </div>
